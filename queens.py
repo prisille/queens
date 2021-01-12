@@ -1,5 +1,5 @@
 
-# das 8 damen problem
+# the 8 queens problem
 
 from __future__ import print_function
 
