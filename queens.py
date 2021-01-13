@@ -5,7 +5,7 @@ from __future__ import print_function
 
 
 def check_board(i):
-    for j in range(0, i):
+    for j in range(1, i):
         if (d[i-1] == d[j-1]) or (abs(d[i-1]-d[j-1]) == i-j):
             return False
     return True
